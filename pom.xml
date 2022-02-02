@@ -95,7 +95,8 @@
     </dependencies>
 
     <build>
-       
+
+
         <plugins>
             <!-- Plugin used to deploy to remote server -->
             <plugin>
@@ -104,7 +105,7 @@
                 <version>2.2</version>
                 <configuration>          
                     <server>TomcatServer</server>
-                    <url>${remote.server}</url>
+                    <url>64.225.111.13</url>
                     <username>${remote.user}</username>
                     <password>${remote.password}</password>
                     <update>true</update>    
